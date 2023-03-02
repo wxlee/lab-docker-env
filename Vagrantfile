@@ -4,6 +4,7 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "generic/debian11"
   config.vm.hostname = "dockerhost"
+  config.vm.define "dockerhost"
   config.vm.provider "virtualbox" do |vb|
     vb.memory = "1024"
     vb.cpus = 1

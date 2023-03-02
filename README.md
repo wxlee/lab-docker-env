@@ -11,9 +11,33 @@ Vagrant: 2.3.4
 ```bash
 git clone https://github.com/wxlee/lab-docker-env.git
 
+# step up vm
 vagrant up
+
+# SSH Login
 vagrant ssh
 ```
 
 ## Login by SSH (Only for lab)
 default user / password: vagrant / vagrant
+
+## Vagrant Useful command
+```bash
+# Create Vagrantfile
+vagrant init
+
+# Setup or start vm
+vagrant up
+
+# Poweroff vm
+vagrant halt
+
+# Freeze vm
+vagrant suspend
+
+# Delete vm
+vagrant destroy
+
+# List box
+vagrant box list
+```
