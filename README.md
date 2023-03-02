@@ -21,7 +21,7 @@ vagrant ssh
 ## Login by SSH (Only for lab)
 default user / password: vagrant / vagrant
 
-## Vagrant Useful command
+## Vagrant useful command
 ```bash
 # Create Vagrantfile
 vagrant init
