@@ -1,6 +1,6 @@
 # Docker in Virtualbox Env
 
-OS: macOS 10.15.7
+OS: macOS 10.15.7 (Intel CPU)
 
 Virtualbox: 6.1.42
 
@@ -10,6 +10,8 @@ Vagrant: 2.3.4
 ## Steps
 ```bash
 git clone https://github.com/wxlee/lab-docker-env.git
+
+cd lab-docker-env
 
 # step up vm
 vagrant up
@@ -26,7 +28,7 @@ default user / password: vagrant / vagrant
 # Create Vagrantfile
 vagrant init
 
-# Setup or start vm
+# Setup or start vm (only provision once)
 vagrant up
 
 # Poweroff vm
