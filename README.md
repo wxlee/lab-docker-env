@@ -2,7 +2,7 @@
 
 OS: macOS 10.15.7 (Intel CPU)
 
-Virtualbox: 6.1.42
+VMware Fusion: 12.1.2
 
 Vagrant: 2.3.4
 
